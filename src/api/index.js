@@ -1,4 +1,4 @@
-var socket = new WebSocket("wss://coderpwh.cloudns.biz/ws")
+var socket = new WebSocket("wss://coderpwhdemo.zeabur.app/ws")
 
 let connect = cb => {
     console.log('Attempting Connection...');
