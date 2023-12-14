@@ -1,3 +1,4 @@
+import "./ChatHistory.scss"
 const ChatHistory = ({chatHistory}) => {
     const messages = chatHistory.map((msg,index) => (
         <p key={index}>{msg.data}</p>

@@ -1,4 +1,4 @@
-
+import "./ChatInput.scss"
 
 const ChatInput = ({send}) => (
     <div className="ChatInput">
